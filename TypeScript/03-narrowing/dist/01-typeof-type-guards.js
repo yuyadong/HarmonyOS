@@ -1,0 +1,17 @@
+"use strict";
+function printAll(strs) {
+    if (strs && typeof strs === "object") {
+        for (const s of strs) {
+            console.log(s);
+        }
+    }
+    else if (typeof strs === "string") {
+        console.log(strs);
+    }
+    else {
+        console.log("null");
+    }
+}
+printAll("yuyadong");
+printAll(["a", "d", "a", "m"]);
+printAll(null);
