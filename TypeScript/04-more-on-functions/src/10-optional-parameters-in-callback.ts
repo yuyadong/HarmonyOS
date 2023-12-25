@@ -7,3 +7,5 @@ function myForEach(arr: any[], callback: (arg: any, index?: number) => void) {
 myForEach([1, 2, 3], (a) => console.log(a));
 myForEach([1, 2, 3], (a, i) => console.log(a, i));
 myForEach([1, 2, 3], (a, i) => console.log(i?.toFixed(2)));
+
+

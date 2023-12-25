@@ -1,18 +1,18 @@
-class Ctor {
-  s: string;
-  constructor(s: string) {
-    this.s = s;
-  }
-}
+// class Ctor {
+//   s: string;
+//   constructor(s: string) {
+//     this.s = s;
+//   }
+// }
 
-type SomeConstructor = {
-  new (s: string): Ctor;
-};
+// type SomeConstructor = {
+//   new (s: string): Ctor;
+// };
 
-function fn(ctor: SomeConstructor) {
-  return new ctor("hello");
-}
+// function fn(ctor: SomeConstructor) {
+//   return new ctor("hello");
+// }
 
-const f = fn(Ctor);
+// const f = fn(Ctor);
 
-console.log(f.s);
+// console.log(f.s);
