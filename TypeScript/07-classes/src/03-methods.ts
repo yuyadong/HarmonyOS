@@ -13,9 +13,9 @@ point.scale(10);
 console.log(point.x, point.y);
 
 let x: number = 0;
-class C {
-  x: string = "hello";
-  m() {
-    x = 100;
-  }
-}
+// class C {
+//   x: string = "hello";
+//   m() {
+//     x = 100;
+//   }
+// }
